@@ -35,6 +35,7 @@ body {
 }
 
 header {
+    width: 100%;
     color: white;
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
@@ -174,6 +175,7 @@ aside > ul {
 }
 
 footer {
+    width: 100%;
     padding: 5px;
     font-size: 0.8em;
     background-color: var(--cor4);
