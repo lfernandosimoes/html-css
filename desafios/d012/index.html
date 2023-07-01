@@ -6,11 +6,24 @@
     <title>Desafio do Astronauta</title>
     <style>
         #container {
+            position: relative;
+            background-image: url(imagens/espaco.jpg);
+            background-size: 100% 100%;
             background-color: red;
+            height: 97vh;
         }
 
         #conteudo {
-            background-color: blue;
+            position: absolute;
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+            height: 300px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
         }
 
     </style>
